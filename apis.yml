@@ -1,7 +1,16 @@
 aid: hampr
 name: hampr
-description: hampr is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  hampr is an app-based, on-demand laundry pickup and delivery service founded
+  by Laurel Hess and backed by Techstars. Members bag their dirty laundry, tap
+  the hampr mobile app, and a local independent "washr" collects, professionally
+  washes, dries, folds, and returns it to their door within 24 hours at flat-rate
+  per-load pricing with free pickup and delivery. hampr operates across 16+ US
+  states with 1,500+ washrs, 11,000+ members, and 300,000+ loads completed, and
+  also runs hampr for business, a commercial laundry solution for salons, spas,
+  gyms, and short-term rentals. This profile was surfaced as a Techstars
+  portfolio lead and enriched by the API Evangelist pipeline; hampr is a
+  consumer/commercial mobile service and publishes no public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/hampr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://hampr.com/wp-content/uploads/2023/07/hampr-bin-icon.png
 tags:
 - Company
+- Laundry
+- On-Demand
+- Delivery
+- Consumer Services
+- Mobile App
+- Gig Economy
+- Commercial Laundry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,33 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://tryhampr.com/
+  url: https://hampr.com/
+- type: Pricing
+  url: https://hampr.com/pricing/
+- type: SignUp
+  url: https://hampr.onelink.me/MFmx/u8cr0fte
+- type: TermsOfService
+  url: https://hampr.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://hampr.com/privacy-policy/
+- type: Blog
+  url: https://hampr.com/blog/
+- type: Support
+  url: https://help.tryhampr.com/en/
+- type: About
+  url: https://hampr.com/about/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/try-hampr/
+- type: Instagram
+  url: https://www.instagram.com/tryhampr/
+- type: Facebook
+  url: https://www.facebook.com/tryhampr/
+- type: YouTube
+  url: https://www.youtube.com/@tryhampr
+- type: DomainSecurity
+  url: security/hampr-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
